@@ -1,0 +1,17 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.farbe-purple{
+  border:1px solid $purple;
+  border-radius: 0;
+  color: $purple;
+
+  &:hover{
+    border:1px solid $purple;
+    color: $purple;
+  }
+}
+
+.hintergrund-purple{
+  background-color: $purple;
+}
+// This is where you can import other stylesheets or write your scss code
