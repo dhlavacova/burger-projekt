@@ -10,8 +10,14 @@
     color: $purple;
   }
 }
-
+.border-color{
+  border:1px solid $black;
+}
 .hintergrund-purple{
   background-color: $purple;
+}
+
+#text_section2{
+  color:$white;
 }
 // This is where you can import other stylesheets or write your scss code

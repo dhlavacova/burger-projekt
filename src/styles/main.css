@@ -10779,8 +10779,16 @@ textarea.form-control-lg {
   color: #6f42c1;
 }
 
+.border-color {
+  border: 1px solid #000;
+}
+
 .hintergrund-purple {
   background-color: #6f42c1;
+}
+
+#text_section2 {
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
