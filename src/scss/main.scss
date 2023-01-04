@@ -1,4 +1,8 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@mixin fonts{
+  font-family: 'Love Ya Like A Sister', cursive;
+}
 
 .farbe-purple{
   border:1px solid $purple;
@@ -19,5 +23,11 @@
 
 #text_section2{
   color:$white;
+@include fonts;
+
 }
+#form-h2{
+  @include fonts;
+}
+
 // This is where you can import other stylesheets or write your scss code
